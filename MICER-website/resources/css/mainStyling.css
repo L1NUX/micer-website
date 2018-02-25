@@ -13,12 +13,17 @@
 .nav-bar-item{
     float: left;
     border-right: 1px solid #bbb;
-
+    font-size: 2.6vw;
 }
 
 .nav-bar-item-right{
     float: right;
     border-left: 1px solid #bbb;
+    font-size: 2.6vw;
+}
+
+.nav-bar-item-mid{
+    text-align: center;
 }
 
 .nav-bar-item-link{
@@ -70,4 +75,64 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.active {
+    background-color: rgb(152, 201, 78);
+}
+
+.full{
+    width: 100%;
+}
+
+.first-page{
+    padding-top: 5vw;
+    font-size: 5vw;
+}
+
+.normal-text{
+    font-size: 2vw;
+}
+
+.normal-link{
+
+}
+
+.normal-link:hover{
+
+}
+
+.normal-text:hover{
+
+}
+
+.page-image{
+    width: 100vw;
+    max-width: 1000px;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
